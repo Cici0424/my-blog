@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(247, 244, 246, 0.952);
+    max-width: 100%;
+}
+
+.header {
+    height: 8%;
+    background-color: rgba(255, 255, 255, 0.952);
+}
+
+.logo {
+    height: 25px;
+    float: left;
+}
+
+.biaoqian {
+    background-color: rgba(255, 255, 255, 0.952);
+    height: 45px;
+    width: 430px;
+    float: left;
+    padding-left: 10px;
+}
+
+.header ul li {
+    float: left;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.biaoqian ul li a {
+    font-size: 14px;
+    color: black;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 13px;
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: blue;
+}
+
+.search {
+    height: 45px;
+    background-color: rgb(253, 252, 252);
+    float: left;
+    margin-left: 1px;
+}
+
+.search input {
+    width: 400px;
+    height: 43px;
+    border: 1px solid rgb(180, 177, 177);
+    border-right: 0;
+    color: rgb(77, 34, 34);
+    font-size: 13px;
+    padding-left: 9px;
+    float: left;
+}
+
+.search button {
+    height: 45px;
+    width: 45px;
+    background: url(fa-search.png);
+    border: 0;
+    float: left;
+}
+
+.touxiang img {
+    width: 50px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    margin-left: 12px;
+    position: relative;
+    max-width: 50px;
+    border-radius: 100%;
+}
+
+.youbiaoqian {
+    float: left;
+}
+
+.youbiaoqian a {
+    font-size: 14px;
+    color: black;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 9px;
+    text-decoration: none;
+}
+
+.youbiaoqian ul li {
+    margin-left: 8px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?yox1tg');
+    src: url('fonts/icomoon.eot?yox1tg#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?yox1tg') format('truetype'), url('fonts/icomoon.woff?yox1tg') format('woff'), url('fonts/icomoon.svg?yox1tg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.button {
+    width: 70px;
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(214, 213, 213);
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+    text-align: center;
+    border: 0px solid rgb(214, 213, 213);
+}
+
+.tu {
+    width: 100vw;
+    max-width: 100%;
+    height: 75px;
+    background-color: rgb(202, 233, 168);
+    position: absolute;
+}
+
+.body1 {
+    width: 100%;
+    height: 17%;
+    background-color: rgba(255, 255, 255, 0.952);
+    margin: 0 auto
+}
+
+.body1 .tuwen {
+    height: 100px;
+}
+
+.body1 .tuwen img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    left: 700px;
+    top: 20px;
+}
+
+.body1 .tuwen h4 {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+
+/* .body1 .tuwen button {
+    width: 120px;
+    height: 60px;
+    
+} */
+
+.body2 {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.952);
+}
+
+.body2 .zhong {
+    width: 600px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.952);
+    margin: auto;
+}
+
+.body2 .zhong dt {
+    text-align: center;
+    font-weight: 500px;
+    padding-bottom: 10px;
+}
+
+.body2 .zhong dd {
+    color: grey;
+    text-align: center;
+}
+
+.body2 .zhong1 {
+    padding-top: 10px;
+    float: left;
+    margin: 10px 40px 10px 70px;
+}
+
+.body2 .zhong2 {
+    padding-top: 10px;
+    float: left;
+    margin: 10px 30px 10px 40px;
+}
+
+.body2 .zhong3 {
+    padding-top: 10px;
+    float: left;
+    margin: 10px 40px 10px 40px;
+}
+
+.body2 .zhong4 {
+    padding-top: 10px;
+    float: left;
+    margin: 10px 40px 10px 0px;
+}
+
+.body3 {
+    width: 100%;
+    height: 8%;
+    margin-top: 10px;
+    background-color: rgba(247, 244, 246, 0.952);
+}
+
+.zuowen {
+    float: left;
+    width: 300px;
+    height: 50px;
+    margin-left: 40px;
+    line-height: 50px;
+    background-color: rgba(255, 253, 253, 0.952);
+    display: flex;
+    align-items: center;
+}
+
+.zuowen h4 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.body3 .zhongwen {
+    float: left;
+    height: 50px;
+    width: 700px;
+    background-color: rgba(255, 253, 253, 0.952);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.body3 .zhongwen ul li {
+    list-style: none;
+    float: left;
+    font-size: 15px;
+    padding-left: 45px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.body3 .zhongwen ul li a {
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+}
+
+.body3 .zhongwen ul li a:hover {
+    color: blue;
+}
+
+.youwen img {
+    float: left;
+    position: relative;
+    width: 330px;
+    height: 53px;
+    max-height: 80%;
+    margin-left: -30px;
+}
+
+.body4 {
+    width: 35%;
+    height: 53%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.body4 .beijing img {
+    max-height: 400px;
+    max-width: 400px;
+    padding: 60px 300px;
+    float: right;
+}
+
+.body4 .zuohe .zuoshe {
+    width: 300px;
+    height: 185px;
+    margin-left: 40px;
+    padding-top: 10px;
+    background-color: #fff;
+    float: left;
+}
+
+.body4 .zuohe .zuoshe h4 {
+    font-size: 16px;
+    color: rgb(63, 62, 62);
+    height: 20px;
+    line-height: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    /* padding-left: 10px; */
+    background-color: #fff;
+}
+
+.body4 .zuohe .zuoshe .dian {
+    margin-top: 13px;
+    margin-left: 22px;
+    list-style: none;
+    height: 20px;
+}
+
+.body4 .zuohe .zuoshe li img {
+    float: left;
+    position: static;
+    height: 30px;
+    width: 30px;
+    padding-right: 14px;
+}
+
+.body4 .zuohe .zuoshe li p {
+    float: left;
+    padding-top: 6px;
+}
+
+.body4 .zuohe .zuoxhe {
+    width: 300px;
+    height: 185px;
+    margin-left: 40px;
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    float: left;
+}
+
+.body4 .zuohe .zuoxhe h4 {
+    font-size: 16px;
+    color: rgb(63, 62, 62);
+    height: 10px;
+    padding-left: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+    /* padding-left: 10px; */
+    background-color: #fff;
+}
+
+span {
+    font-size: 16px;
+    font-family: 'icomoon';
+}
+
+.body4 .zuohe .zuoxhe img {
+    padding-top: 50px;
+    padding-left: 80px;
+    height: 50px;
+}
+
+.body4 .zuohe .zuoxhe .xunzhang button {
+    background-color: rgba(247, 244, 246, 0.952);
+    border: 1px none rgba(247, 244, 246, 0.952);
+    color: rgb(71, 71, 71);
+    font-size: 15px;
+    width: 250px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+
+.body4 .zuoxxhe .zhengwen {
+    width: 1030px;
+    height: 120px;
+    margin-left: 30px;
+    padding-top: 10px;
+    background-color: rgb(255, 253, 253);
+    margin-bottom: 10px;
+}
+
+.body4 .zuoxxhe a {
+    display: block;
+    padding-left: 23px;
+    font-size: 17px;
+    color: rgb(29, 29, 29);
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.body4 .zuoxxhe a:hover {
+    color: blue;
+}
+
+.body4 .zuoxxhe p {
+    display: block;
+    padding-left: 23px;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    padding-top: 15px;
+}
+
+.body4 .zuoxxhe img {
+    height: 30px;
+    padding-left: 25px;
+    padding-top: 17px;
+}
+
+.body4 .youhe .guding img {
+    position: fixed;
+    right: 10px;
+    max-height: 120px;
+    max-width: 220px;
+    margin-top: 60px;
+}
+
+.footer {
+    height: 10%;
+    background-color: rgba(255, 253, 253, 0.952);
+}
+
+.footer .foot ul {
+    text-align: center;
+    margin-left: 450px;
+}
+
+.footer .foot ul li {
+    list-style: none;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.footer .foot ul li a {
+    margin-left: 20px;
+    color: grey;
+    text-align: center;
+}
